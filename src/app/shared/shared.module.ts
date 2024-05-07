@@ -5,6 +5,7 @@ import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.com
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { BodyComponent } from './components/body/body.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import {SublevelMenuComponent} from "./components/sidebar-menu/sublevel-menu/sublevel-menu.component";
 
 
 
@@ -12,7 +13,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   declarations: [
     SidebarMenuComponent,
     BodyComponent,
-    DashboardComponent
+    DashboardComponent,
+    SublevelMenuComponent,
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   exports: [
     SidebarMenuComponent,
     BodyComponent,
-    DashboardComponent
+    DashboardComponent,
   ]
 })
 export class SharedModule { }

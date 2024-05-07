@@ -14,8 +14,8 @@ interface SideNavToogle {
 export class AppComponent {
   title = 'analyzCorp';
 
-  isSideNavCollapsed = false;
-  screenWidth = 0;
+  isSideNavCollapsed: boolean = false;
+  screenWidth: number = 0;
 
   onToggleSideNav(data: SideNavToogle): void{
       this.screenWidth = data.screenWidth;
