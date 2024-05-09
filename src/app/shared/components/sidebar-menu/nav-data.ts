@@ -2,8 +2,8 @@ import {INavbarData} from "./helpers";
 
 export const navbarData: INavbarData[] = [
   {
-    routeLink: 'dashboard',
-    icon: 'pi pi-home',
-    label: 'Dashboard'
+    routeLink: 'financial-data',
+    icon: 'fa-solid fa-landmark',
+    label: 'Financial data'
   },
 ]

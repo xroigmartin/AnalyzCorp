@@ -46,6 +46,10 @@
   border: none;
 }
 
+.fa-solid{
+  color: #fff;
+}
+
 .sidenav .logo-container .btn-close .pi-times {
   color: #fff;
   font-size: 24px;
