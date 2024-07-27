@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import xroigmartin.analyzCorp.company_ticker.domain.model.CompanyTicker;
-import xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain.SecCompanyTicker;
+import xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain.model.SecCompanyTicker;
 import xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.infrastructure.utils.SecCompanyTickerRestUtils;
 
 import java.util.List;

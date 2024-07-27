@@ -1,4 +1,4 @@
-package xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain;
+package xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,6 +16,6 @@ public class SecCompanyTicker implements Serializable {
   private static final long serialVersionUID = 4520016786559062140L;
 
   private String ticker;
-  private Long cik;
+  private Long cik_str;
   private String title;
 }

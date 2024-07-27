@@ -1,4 +1,4 @@
-package xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain;
+package xroigmartin.analyzCorp.company_ticker.infrastructure.rest.secCompanyTicker.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

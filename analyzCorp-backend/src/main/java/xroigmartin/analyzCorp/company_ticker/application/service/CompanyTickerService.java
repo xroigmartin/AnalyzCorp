@@ -19,7 +19,6 @@ public class CompanyTickerService {
 
     var companiesTickers = companyTickerRest.getAllCompaniesTickers();
 
-    companiesTickers.forEach(System.out::println);
-    //this.repository.synchronizeCompaniesTickers(companiesTickers);
+    this.repository.synchronizeCompaniesTickers(companiesTickers);
   }
 }

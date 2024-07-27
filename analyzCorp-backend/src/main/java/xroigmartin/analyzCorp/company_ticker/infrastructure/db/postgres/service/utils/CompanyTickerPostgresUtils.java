@@ -9,7 +9,7 @@ public final class CompanyTickerPostgresUtils {
 
   public static CompanyTickerPostgresEntity convertCompanyTickerToCompanyTickerPostgresEntity(CompanyTicker companyTicker) {
     return CompanyTickerPostgresEntity.builder()
-      .ticker(companyTicker.getTitle())
+      .ticker(companyTicker.getTicker())
       .title(companyTicker.getTitle())
       .cik(companyTicker.getCik())
       .build();
