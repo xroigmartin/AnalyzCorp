@@ -1,4 +1,4 @@
-package xroigmartin.analyzCorp.company_ticker.infrastructure.db.postgres.domain.model;
+package xroigmartin.analyzCorp.company_ticker.infrastructure.db.postgres.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
