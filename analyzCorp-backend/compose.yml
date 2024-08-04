@@ -1,0 +1,16 @@
+name: analyzCorp-Compose
+
+services:
+  db:
+    image: postgres:16.3-alpine3.20
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: analyzCorp
+      POSTGRES_DB: analyzCorp
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgres/data
+
+volumes:
+  db_data:
